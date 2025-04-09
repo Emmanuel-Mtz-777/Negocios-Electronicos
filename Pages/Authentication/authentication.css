@@ -1,0 +1,118 @@
+body {
+    background-color: rgb(9, 9, 9);
+}
+
+.container {
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.authentication {
+    height: 80vh;
+    width: 65%;
+    background-color: rgba(137, 126, 126, 0.1);
+    backdrop-filter: blur(3px);
+    display: flex;
+    flex-direction: row;
+    border-radius: 60px;
+    box-shadow: 0 0 5px 2px #71717166;
+}
+
+.registration {
+    width: 65%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    display: none;
+}
+
+.login {
+    width: 65%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    width: 90%;
+    color: #fff;
+    align-items: center;
+}
+
+.form h1, .form label , .form a{
+    text-align: left; 
+    width: 90%; 
+    text-decoration: none;
+    color: #fff;
+}
+
+.form h1{
+    margin: 10px ;
+}
+
+.registration{
+    text-align: center;
+}
+
+.decoration {
+    width: 35%;
+    height: 100%;
+    background-color: rgba(0, 3, 94, 0.2);
+    margin: auto;
+    border-radius: 60px 0 0 60px;
+    border-right: 1px solid #71717166;
+    display: flex;
+    justify-content: center;
+}
+
+.formLogo{
+    height: 60%;
+}
+
+.input-data {
+    padding: 10px 10px;
+    width: 90%;
+    margin: 10px 25px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+}
+
+.input-submit{
+    padding: 15px 20px;
+    width: 40%;
+    margin: 20px 10px;
+    border-radius: 20px;
+    background-color: rgb(169, 169, 169);
+    border: none;
+    transition: 0.5s;
+}
+
+.input-submit:hover{
+    background-color: rgb(98, 98, 98);
+}
+
+.input-data:focus{
+    outline: none;
+    color: #fff;
+}
+
+.change{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
