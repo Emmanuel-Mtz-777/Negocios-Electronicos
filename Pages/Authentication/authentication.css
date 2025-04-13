@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(9, 9, 9);
+    background-color: #0D0F1A;
 }
 
 .container {
@@ -10,6 +10,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .authentication {
@@ -19,8 +20,9 @@ body {
     backdrop-filter: blur(3px);
     display: flex;
     flex-direction: row;
-    border-radius: 60px;
+    border-radius: 30px;
     box-shadow: 0 0 5px 2px #71717166;
+    color: #eee;
 }
 
 .registration {
@@ -47,7 +49,7 @@ body {
     flex-direction: column;
     height: 90%;
     width: 90%;
-    color: #fff;
+    color: #eee;
     align-items: center;
 }
 
@@ -55,11 +57,19 @@ body {
     text-align: left; 
     width: 90%; 
     text-decoration: none;
-    color: #fff;
+    color: #eee;
 }
 
 .form h1{
     margin: 10px ;
+    font-size: 40px;
+    text-align: center;
+}
+
+.form h2{
+    margin: 10px ;
+    font-size: 40px;
+    text-align: center;
 }
 
 .registration{
@@ -69,16 +79,17 @@ body {
 .decoration {
     width: 35%;
     height: 100%;
-    background-color: rgba(0, 3, 94, 0.2);
+    background: radial-gradient(circle at center, #58385d33, #262c4b);
     margin: auto;
-    border-radius: 60px 0 0 60px;
+    border-radius: 30px 0 0 30px;
     border-right: 1px solid #71717166;
     display: flex;
     justify-content: center;
+    align-items: CENTER;
 }
 
 .formLogo{
-    height: 60%;
+    height: 50%;
 }
 
 .input-data {
@@ -88,7 +99,11 @@ body {
     border: none;
     border-bottom: 1px solid #fff;
     background-color: transparent;
-    color: #fff;
+    color: #eee;
+}
+
+.input-data::placeholder{
+    color: #89CFF0;
 }
 
 .input-submit{
@@ -96,23 +111,197 @@ body {
     width: 40%;
     margin: 20px 10px;
     border-radius: 20px;
-    background-color: rgb(169, 169, 169);
+    background-color: #00f0ff;
     border: none;
-    transition: 0.5s;
+    transition: 0.7s;
 }
 
 .input-submit:hover{
-    background-color: rgb(98, 98, 98);
+    background-color: #f04e5c;
 }
 
 .input-data:focus{
     outline: none;
-    color: #fff;
+    color: #eee;
 }
 
 .change{
     background-color: transparent;
     border: none;
-    color: #fff;
+    color: #89CFF0;
     cursor: pointer;
 }
+
+@media (max-width:576px) {
+    .container {
+        height: 100vh;
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .authentication {
+        height: auto;
+        width: 90%;
+        background-color: rgba(137, 126, 126, 0.1);
+        backdrop-filter: blur(3px);
+        display: flex;
+        flex-direction: column;
+        border-radius: 30px;
+        box-shadow: 0 0 5px 2px #71717166;
+        color: #eee;
+        padding: 20px 0;
+    }
+
+    .decoration {
+    width: 100%;
+    background: radial-gradient(circle at 100% 100%, #58385d33, #262c4b);
+    margin: auto;
+    border-right: 1px solid #71717166;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 3px 20px;
+    }
+    .formLogo{
+        height: 50px;
+    }
+
+    .registration {
+        width: 95%;
+        margin: 20px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+        transition: opacity 0.5s ease, transform 0.5s ease;
+        display: none;
+        padding: 20px 10px;
+    }
+    .input-submit{
+        padding: 10px 20px;
+        width: 60%;
+        margin: 20px 10px;
+        border-radius: 20px;
+        background-color: #00f0ff;
+        border: none;
+        transition: 0.7s;
+    }
+
+    .input-data {
+        padding: 10px 10px;
+        width: 100%;
+        margin: 10px 25px;
+        border: none;
+        border-bottom: 1px solid #fff;
+        background-color: transparent;
+        color: #eee;
+    }
+
+    .login {
+        width: 95%;
+        height: auto;
+        margin: 10px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .input-submit:hover{
+        background-color: #f04e5c;
+    }           
+}
+
+@media (min-width: 577px) and (max-width: 1024px) {
+    .container {
+        height: 100vh;
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .authentication {
+        height: auto;
+        width: 70%;
+        background-color: rgba(137, 126, 126, 0.1);
+        backdrop-filter: blur(3px);
+        display: flex;
+        flex-direction: column;
+        border-radius: 30px;
+        box-shadow: 0 0 5px 2px #71717166;
+        color: #eee;
+        padding: 20px 0;
+    }
+
+    .decoration {
+    width: 100%;
+    height: auto;
+    background: radial-gradient(circle at 100% 100%, #58385d33, #262c4b);
+    margin: auto;
+    border-right: 1px solid #71717166;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 3px 20px;
+    }
+    .formLogo{
+        height: 7vh;
+    }
+
+    .registration {
+        width: 95%;
+        margin: 20px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+        transition: opacity 0.5s ease, transform 0.5s ease;
+        display: none;
+        padding: 20px 10px;
+    }
+    .input-submit{
+        padding: 10px 20px;
+        width: 60%;
+        margin: 20px 10px;
+        border-radius: 20px;
+        background-color: #00f0ff;
+        border: none;
+        transition: 0.7s;
+    }
+
+    .input-data {
+        padding: 10px 10px;
+        width: 100%;
+        margin: 10px 25px;
+        border: none;
+        border-bottom: 1px solid #fff;
+        background-color: transparent;
+        color: #eee;
+    }
+
+    .login {
+        width: 95%;
+        height: auto;
+        margin: 10px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .registration h2{
+        text-align: center;
+        margin: 10px auto;
+        font-size: 40px;
+    }
+
+    .input-submit:hover{
+        background-color: #f04e5c;
+    }           
+}
+

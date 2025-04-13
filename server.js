@@ -2,6 +2,9 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const fs = require('fs');
 const cors = require('cors');
+const multer =require('multer')
+const sharp = require('sharp')
+const path = require('path')
 const app = express();
 const port = 3000;
 

@@ -3,54 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Snackify es un e-commerce especializado en la venta de dulces a usuarios.">
-
     <title>Document</title>
     <link rel="stylesheet" href="/Styles/styles.css">
     <link rel="stylesheet" href="/Pages/Elements/navbar.css">
+    <link rel="stylesheet" href="/Pages/Account/user.css">
     <link rel="stylesheet" href="/Pages/Elements/footer.css">
     <link rel="stylesheet" href="/Styles/Animations/back-login.css">
-    <link rel="stylesheet" href="/Pages//Elements/products.css">
+    
 </head>
+
 <body>
     <header>
         <nav class="navBar">
             <div class="logo">
-                <img src="/Assets/Images/logo-navbar.webp" alt="Logo de Snakify">
+                <img src="/Assets/Images/Logo.webp" alt="">
                 <a href="/index.html" class="logo">Snakify</a>
             </div>
             <div class="group">
                 <ul class="navigation">
-                    <li><a href="" id="account">My account</a></li>
-                    <li><a href="/Pages/orders/orders.html" id="orders">Pedidos</a></li>
-                    <li><a href="/Pages/Shop/shopCar.html" id="shopCar">Carrito</a></li>
+                    <li><a href="">My account</a></li>
+                    <li><a href="/Pages/orders/orders.html">Pedidos</a></li>
+                    <li><a href="/Pages/Shop/shopCar.html">Carrito</a></li>
                 </ul>
+                
                 <div class="searchBox">
-                    <label for="searchInput">Search: </label>
-                    <input type="text"id="searchInput">
-                    <ion-icon name="close-outline" id="cancel" class="cancelButton"></ion-icon>
-                </div>
-                <div class="search">
-                    <span class="searchIcon">
-                        <ion-icon name="search-outline" id="search"></ion-icon>
-                    </span>
-                </div>
-                <div class="navMenu" id="navMenu">
-                    <ion-icon name="menu-outline"></ion-icon>
+                    <input type="text">
                 </div>
             </div>
             
         </nav>
     </header>
-    <section class="banner">
-        <img src="/Assets/Images/banner.webp" alt="Imagen promocional de Snackify" loading="lazy">
-    </section>
     <main>
+        <button id="logOut">cerrar session</button>
     </main>
+    
     <footer class="footer">
         <div class="container">
             <div class="bubbles"></div>
             <div class="footerContent">
+            <div class="footerLine"></div>
             <div class="footerInfo">
                     <h2>Sobre nosotros</h2>
                 <p>En Snakify nos apasiona endulzar tus momentos. Somos una tienda en línea dedicada a ofrecerte los mejores dulces con entrega rápida y segura. Desde clásicos hasta nuevas delicias, tenemos justo lo que necesitas para satisfacer tu antojo… ¡a solo un clic!</p>
@@ -61,25 +52,25 @@
                     <li><a href="#"><ion-icon name="logo-tiktok"></ion-icon></a></li>
                 </ul>
             </div>
-            <div class="contactSection">
-                <div class="footerLinks">
-                    <h2>Enlaces rápidos</h2>
-                    <ul>
-                        <li><a href="">Terminos y condiciones</a></li>
-                        <li><a href="">Politicas de privacidad</a></li>
-                    </ul>
-                </div>
-                <div class="footerContact">
-                    <h2>Contactanos</h2>
-                    <ul>
-                        <li>Tel: <a href="tel:+524493714565">+52 1 449 371 4565</a></li>
-                        <li>Email: <a href="mailto:contacto@snakify.com">contacto@snakify.com</a></li>
-                    </ul>
-                </div>
+            <div class="footerLinks">
+                <h2>Enlaces rápidos</h2>
+                <ul>
+                    <li><a href="">Terminos y condiciones</a></li>
+                    <li><a href="">Politicas de privacidad</a></li>
+                </ul>
             </div>
+            <div class="footerContact">
+                <h2>Contactanos</h2>
+                <ul>
+                    <li>Tel: <a href="tel:+524493714565">+52 1 449 371 4565</a></li>
+                    <li>Email: <a href="mailto:contacto@snakify.com">contacto@snakify.com</a></li>
+                </ul>
+            </div>
+            <div class="footerLine"></div>
+                </div>
         </div>
     </footer>
-    <script src="/Pages/Elements/products.js"></script>
+    <script src="/pages/Account/user.js"></script>
     <script src="/Pages/Elements/navBar.js"></script>
     <script src="/Pages/Elements/bubbles.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
