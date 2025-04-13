@@ -1,0 +1,242 @@
+[
+    {
+        "id": 1,
+        "nombre": "Gomitas de Osito",
+        "precio": 25,
+        "descripcion": "Gomitas surtidas en forma de osito. Bolsa de 100g.",
+        "imagen": "/Assets/Images/products/Gomitas de Osito.jpeg",
+        "categoria": "gomitas"
+    },
+    {
+        "id": 2,
+        "nombre": "Gomitas Ácidas de Frutas",
+        "precio": 28,
+        "descripcion": "Gomitas con recubrimiento ácido y sabores frutales.",
+        "imagen": "/Assets/Images/products/Gomitas Ácidas de Frutas.webp",
+        "categoria": "gomitas"
+    },
+    {
+        "id": 3,
+        "nombre": "Gomitas Rellenas de Gel",
+        "precio": 30,
+        "descripcion": "Gomitas suaves con centro líquido sabor cereza.",
+        "imagen": "/Assets/Images/products/Gomitas Rellenas de Gel.jpg",
+        "categoria": "gomitas"
+    },
+    {
+        "id": 4,
+        "nombre": "Paleta de Caramelo con Chile",
+        "precio": 10,
+        "descripcion": "Paleta sabor tamarindo con recubrimiento de chile.",
+        "imagen": "/Assets/Images/products/Paleta de Caramelo con Chile.jpeg",
+        "categoria": "paletas"
+    },
+    {
+        "id": 5,
+        "nombre": "Paleta de Sandía con Chile",
+        "precio": 12,
+        "descripcion": "Paleta sabor sandía con polvo de chile picante.",
+        "imagen": "/Assets/Images/products/Paleta de Sandía con Chile.jpeg",
+        "categoria": "paletas"
+    },
+    {
+        "id": 6,
+        "nombre": "Paleta de Mango con Chamoy",
+        "precio": 14,
+        "descripcion": "Paleta dulce con chamoy líquido en el interior.",
+        "imagen": "/Assets/Images/products/Paleta de Mango con Chamoy.jpeg",
+        "categoria": "paletas"
+    },
+    {
+        "id": 7,
+        "nombre": "Chicle de Fresa Explosiva",
+        "precio": 6,
+        "descripcion": "Chicle con centro líquido explosivo sabor fresa.",
+        "imagen": "/Assets/Images/products/Chicle de Fresa Explosiva.jpeg",
+        "categoria": "chicles"
+    },
+    {
+        "id": 8,
+        "nombre": "Chicle de Sandía con Centro Ácido",
+        "precio": 6,
+        "descripcion": "Chicle de sabor sandía con centro ácido intenso.",
+        "imagen": "chicle_sandia.jpg",
+        "categoria": "chicles"
+    },
+    {
+        "id": 9,
+        "nombre": "Chicles Mini Multisabor",
+        "precio": 10,
+        "descripcion": "Paquete de mini chicles con sabores surtidos.",
+        "imagen": "/Assets/Images/products/Chicles Mini Multisabor.jpeg",
+        "categoria": "chicles"
+    },
+    {
+        "id": 10,
+        "nombre": "Pulparindo Original",
+        "precio": 8,
+        "descripcion": "Tamarindo con sal y chile en barra tradicional.",
+        "imagen": "/Assets/Images/products/Pulparindo Original.jpeg",
+        "categoria": "tamarindo"
+    },
+    {
+        "id": 11,
+        "nombre": "Pulparindo Extra Picante",
+        "precio": 9,
+        "descripcion": "Versión más intensa del clásico Pulparindo.",
+        "imagen": "/Assets/Images/products/Pulparindo Extra Picante.jpeg",
+        "categoria": "tamarindo"
+    },
+    {
+        "id": 12,
+        "nombre": "Rollo de Tamarindo con Chile",
+        "precio": 15,
+        "descripcion": "Rollo de tamarindo natural con chile espolvoreado.",
+        "imagen": "/Assets/Images/products/Rollo de Tamarindo con Chile.jpeg",
+        "categoria": "tamarindo"
+    },
+    {
+        "id": 13,
+        "nombre": "Tamarindos en Bote",
+        "precio": 22,
+        "descripcion": "Tamarindos con azúcar y chile en bote pequeño.",
+        "imagen": "/Assets/Images/products/Tamarindos en Bote.jpeg",
+        "categoria": "tamarindo"
+    },
+    {
+        "id": 14,
+        "nombre": "Caramelos Rellenos de Fresa",
+        "precio": 15,
+        "descripcion": "Caramelos duros con centro líquido sabor fresa.",
+        "imagen": "/Assets/Images/products/Caramelos Rellenos de Fresa.jpeg",
+        "categoria": "caramelos"
+    },
+    {
+        "id": 15,
+        "nombre": "Caramelos de Menta",
+        "precio": 12,
+        "descripcion": "Caramelos refrescantes con sabor a menta.",
+        "imagen": "/Assets/Images/products/Caramelos de Menta.jpeg",
+        "categoria": "caramelos"
+    },
+    {
+        "id": 16,
+        "nombre": "Caramelos de Café",
+        "precio": 14,
+        "descripcion": "Caramelos con auténtico sabor a café.",
+        "imagen": "/Assets/Images/products/Caramelos de Café.jpeg",
+        "categoria": "caramelos"
+    },
+    {
+        "id": 17,
+        "nombre": "Mazapán de Cacahuate",
+        "precio": 8,
+        "descripcion": "Dulce suave tradicional de cacahuate.",
+        "imagen": "/Assets/Images/products/Mazapán de Cacahuate.jpeg",
+        "categoria": "tradicionales"
+    },
+    {
+        "id": 18,
+        "nombre": "Alegría de Amaranto",
+        "precio": 10,
+        "descripcion": "Barrita de amaranto con miel y pasitas.",
+        "imagen": "/Assets/Images/products/Alegría de Amaranto.jpeg",
+        "categoria": "tradicionales"
+    },
+    {
+        "id": 19,
+        "nombre": "Glorias de Cajeta",
+        "precio": 18,
+        "descripcion": "Dulces de leche quemada con nuez. Tradicionales.",
+        "imagen": "/Assets/Images/products/Glorias de Cajeta.jpeg",
+        "categoria": "tradicionales"
+    },
+    {
+        "id": 20,
+        "nombre": "Cocadas",
+        "precio": 16,
+        "descripcion": "Dulces de coco rallado con azúcar. Muy sabrosos.",
+        "imagen": "/Assets/Images/products/Cocadas.jpeg",
+        "categoria": "tradicionales"
+    },
+    {
+        "id": 21,
+        "nombre": "Ácidos Surtidos",
+        "precio": 25,
+        "descripcion": "Mix de dulces con polvo ácido y sabores intensos.",
+        "imagen": "/Assets/Images/products/Ácidos Surtidos.jpeg",
+        "categoria": "ácidos"
+    },
+    {
+        "id": 22,
+        "nombre": "Cintitas Ácidas",
+        "precio": 12,
+        "descripcion": "Tiras de dulce ácido sabor mango y fresa.",
+        "imagen": "/Assets/Images/products/Cintitas Ácidas.jpeg",
+        "categoria": "ácidos"
+    },
+    {
+        "id": 23,
+        "nombre": "Polvo Ácido en Tubo",
+        "precio": 10,
+        "descripcion": "Polvito ácido sabor uva en tubo de plástico.",
+        "imagen": "/Assets/Images/products/Polvo Ácido en Tubo.jpeg",
+        "categoria": "ácidos"
+    },
+    {
+        "id": 24,
+        "nombre": "Paleta de Chamoy Líquido",
+        "precio": 14,
+        "descripcion": "Paleta sólida con tubo de chamoy líquido.",
+        "imagen": "/Assets/Images/products/Paleta de Chamoy Líquido.jpeg",
+        "categoria": "paletas"
+    },
+    {
+        "id": 25,
+        "nombre": "Mini Pelón Pelo Rico",
+        "precio": 11,
+        "descripcion": "Dulce suave de tamarindo que se empuja.",
+        "imagen": "/Assets/Images/products/Mini Pelón Pelo Rico.jpeg",
+        "categoria": "tamarindo"
+    },
+    {
+        "id": 26,
+        "nombre": "Tarugos con Chile",
+        "precio": 13,
+        "descripcion": "Barras sólidas de tamarindo con chile y azúcar.",
+        "imagen": "/Assets/Images/products/Tarugos con Chile.jpeg",
+        "categoria": "tamarindo"
+    },
+    {
+        "id": 27,
+        "nombre": "Gomitas con Azúcar",
+        "precio": 20,
+        "descripcion": "Gomitas cubiertas con azúcar cristalizada.",
+        "imagen": "/Assets/Images/products/Gomitas con Azúcar.jpeg",
+        "categoria": "gomitas"
+    },
+    {
+        "id": 28,
+        "nombre": "Caramelo de Leche",
+        "precio": 9,
+        "descripcion": "Dulce blando con sabor a leche dulce.",
+        "imagen": "/Assets/Images/products/Caramelo de Leche.jpeg",
+        "categoria": "caramelos"
+    },
+    {
+        "id": 29,
+        "nombre": "Tamarindo con Pepino",
+        "precio": 17,
+        "descripcion": "Dulce de tamarindo con esencia de pepino fresco.",
+        "imagen": "/Assets/Images/products/Tamarindo con Pepino.png",
+        "categoria": "tamarindo"
+    },
+    {
+        "id": 30,
+        "nombre": "Chicle Sorpresa",
+        "precio": 7,
+        "descripcion": "Chicle con figura sorpresa adentro. Coleccionable.",
+        "imagen": "/Assets/Images/products/Chicle Sorpresa.jpeg",
+        "categoria": "chicles"
+    }
+]

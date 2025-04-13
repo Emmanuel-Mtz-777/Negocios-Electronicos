@@ -3,6 +3,12 @@ const logPassword = document.getElementById("logPassword");
 const login = document.getElementById("login");
 const logError = document.querySelector(".logError");
 
+const userEmail = localStorage.getItem('userEmail'); 
+
+if (userEmail) {
+    window.location.href = "/index.html";
+}
+
 const verifyUser = (users, email, password) => {
     return users.find(user => user.email === email && user.password === password);
 };
@@ -18,16 +24,14 @@ fetch('/../Assets/Data/users.json')
 
             // Verificamos si el usuario existe y si es admin
             if (validUser) {
-                if (validUser.email === "admin" && validUser.password === "Admin12345#") {
-                    window.location.href = "/Pages/Admin/admin.html";  // Redirigir al panel de admin
-                } else {
-                    window.location.href = "/index.html";  // Redirigir a la página principal
-                }
+                localStorage.setItem('userEmail', validUser.email);
+                window.location.href = "/index.html";  // Redirigir a la página principal
             } else {
                 logError.innerHTML = "Usuario no encontrado";
                 logError.style.color = "red";
                 logError.style.margin = "10px";
             }
+            
         });
     })
     .catch(error => {
