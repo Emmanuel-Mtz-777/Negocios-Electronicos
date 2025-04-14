@@ -1,4 +1,425 @@
 main{
     margin-top: 80px;
     width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.user{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.userPic{
+    width: 10%;
+    height: 20vh;
+    background-image: url(/Assets//Images/user.webp);
+    background-size: cover;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-end;
+}
+.userPic button{
+    display: flex;
+    align-items: end;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #0D0F1A;
+    color: #fff;
+    font-size: 1.2em;
+    border: none;
+}
+
+.userPic button:hover{
+    background-color: #2b2e3f;
+}
+
+.userData{
+    width: 50%;
+    color: #0D0F1A;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px 15px;
+}
+
+
+
+.accountOptions{
+    width: 10%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logOut{
+    width: 20%;
+    padding: 12px 10px;
+    border-radius: 15px;
+    background-color: #0D0F1A;
+    color: #fff;
+    border: none;
+}
+
+.logOut:hover{
+    background-color: #2b2e3f;
+}
+
+.email{
+    margin: 10px 20px;
+}
+
+.editUser{
+    width: 90%;
+    padding:15px 10px;
+    border-radius: 15px;
+    background-color: #0D0F1A;
+    color: #fff;
+    border: none;
+}
+
+.editUser:hover{
+    background-color: #2b2e3f;
+}
+
+.viewData{
+    margin: 5px 0;
+    width: 80%;
+    padding: 15px 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-top: 1px solid #444;
+    border-bottom: 1px solid #444;
+}
+
+.viewData button{
+    padding: 5px 10px;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.showOrders{
+    margin: 10px 5px;
+    width: 50%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.showPay{
+    width: 50%;
+    height: 40vh;
+    margin: 10px 5px;
+    display: none;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.paymentDate{
+    width: 50%;
+    height: 30px;
+    padding: 5px 20px;
+    background-color: #0D0F1A;
+    border-radius: 0 20px 20px 0;
+    color: #eee;
+}
+
+.paymentdata{
+    padding: 10px 15px;
+}
+
+.paymentCard{
+    padding: 10px 0;
+    border: 1px solid #0D0F1A;
+    border-radius: 20px;
+}
+
+.paymentdata p h3{
+    margin: 10px 0;
+    
+}
+
+.paymentOption{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px 0;
+    padding:0 5px;
+}
+
+.paymentOption button{
+    width: 20%;
+    padding:10px 0;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(235, 0, 0);
+    color: #eee;
+    transition: 0.3s;
+}
+
+.paymentOption button:hover{
+    background-color: rgb(95, 0, 0);
+}
+
+
+
+.addPayment{
+    width: 20%;
+    padding:10px;
+    border-radius: 20px;
+    border: 1px solid #0D0F1A;
+    margin: 5px 0;
+}
+
+.addPayment:hover{
+    background-color: #3f3f3f;
+    color: #eee;
+}
+
+.settingAcount{
+    width: 50%;
+    height: 40vh;
+    margin: 20px 5px;
+    display:none;
+    flex-direction: column;
+}
+
+.settingAcount h2{
+    margin: 20px 5px;
+}
+
+.settings{
+    width: 100%;
+    border: 1px solid #0D0F1A;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+
+.changePass{
+    border: none;
+    border-bottom: 1px solid #0D0F1A;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 20px;
+}
+
+.pass{
+    width: 95%;
+}
+
+.pass-icon{
+    width: 5%;
+    font-size: 1.5rem;
+}
+
+.deleteAccount{
+    width: 100%;
+}
+
+.deleteAccount button{
+    width: 20%;
+    padding: 10px 5px;
+    border-radius: 10px;
+    border: 1px solid #0D0F1A;
+    color: #eee;
+    background-color: rgb(235, 0, 0);
+    transition: 0.4s;
+}
+
+.deleteAccount button:hover{
+    background-color: rgb(95, 0, 0);
+}
+
+.orders{
+    margin: 5px 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #0D0F1A;
+    border-radius: 10px;
+    padding: 20px 10px;
+}
+
+.orderData{
+    width: 50%;
+}
+
+.orderPrice{
+    width: 30%;
+}
+
+.viewOrder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+}
+
+.viewOrder button{
+    width: 90%;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid #0D0F1A;
+}
+
+@media (max-width: 576px){
+    .user{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .userData p{
+        margin: 10px 0;
+    }
+
+    .userPic{
+        width: 20%;
+        height: 8vh;
+    }
+
+    .userPic button{
+        
+        padding: 7px;
+        font-size: 1em;
+    }
+
+    .userData{
+        width: 55%;
+    }
+
+    .accountOptions{
+        width: 20%;
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logOut{
+        width: 80%;
+        padding: 12px 10px;
+    }
+
+    .logOut:hover{
+        background-color: #2b2e3f;
+    }
+
+    .editUser{
+        width: 100%;
+        padding:10px;
+    }
+
+    .editUser:hover{
+        background-color: #2b2e3f;
+    }
+
+    .viewData{
+        margin: 5px 0;
+        width: 90%;
+    }
+
+    .viewData button{
+        font-size: 1rem;
+    }
+
+    .showOrders{
+        width: 90%;
+        height: 30vh;
+    }
+
+    .showPay{
+        width: 90%;
+        height: 40vh;
+        display: none;
+    }
+
+    .settingAcount{
+        width: 90%;
+        height: 30vh;
+        display:none
+    }
+
+    .orderData{
+        width: 40%;
+    }
+
+    .orderPrice{
+        width: 30%;
+    }
+    .viewOrder button{
+        width: 100%;
+    }
+    .paymentOption button{
+        width: 40%;
+        
+    }
+    .addPayment{
+        width: 40%;
+    }
+
+    .deleteAccount button{
+        width: 50%;
+    }
+    
+}
+
+@media (min-width: 577px) and (max-width: 1024px){
+    .userPic{
+        width: 10vw;
+        height: 10vw;
+    }
+
+    .editUser{
+        width: 100%;
+        padding:10px;
+    }
+
+    .accountOptions{
+        width: 20%;
+    }
+
+    .logOut{
+        width: 50%;
+        padding: 12px 10px;
+    }
+    .user{
+        gap: 40px;
+    }
+
+    .showOrders{
+        width: 70%;
+        height: 30vh;
+    }
+
+    .showPay{
+        width: 70%;
+        height: 30vh;
+        display: none;
+    }
+
+    .settingAcount{
+        width: 70%;
+        height: 30vh;
+        display:none
+    }
+
 }
